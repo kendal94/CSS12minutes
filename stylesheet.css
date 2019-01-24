@@ -1,0 +1,106 @@
+body {
+	background-color: white;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+#container{
+  	background-color: white;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header {
+  background-color: white;
+  color: white;
+  text-align: center;
+}
+
+#content {
+  padding: 10px;
+}
+
+#footer{
+  clear:both;
+    color: white;
+  bottom: 0;
+  width: 100%;
+  	background-color: gray;
+  	padding: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1, h2{
+    color: Black;
+  text-align: center;
+}
+
+p{
+    color:  Black;
+    margin-left: 40px;
+}
+
+
+ul, li{
+    color: white;
+    margin-left: 0px;
+    font-size: 10px;
+}
+
+
+
+.nav ul {
+  	list-style: none;
+  	background-color: gray;
+  	text-align: center;
+  	padding: 0;
+  	margin: 0;
+}
+
+.nav li {
+  	font-size: 1.2em;
+  	line-height: 35px;
+  	height: 35px;
+  	border-bottom: 1px solid gray;
+}
+
+.nav a:hover {
+  	background-color: gray;
+  	color: black;
+}
+
+.nav a.active {
+  	background-color: gray;
+  	color: black;
+  	cursor: default;
+}
+
+
+a:link {
+   text-decoration: none;
+   color: white;
+}
+
+
+a:hover {
+   text-decoration: none;
+   color: black;
+}
+
+
+@media screen and (min-width: 600px) {
+  .nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+}
+
+.nav li {
+    display: inline-block;
+    margin-right: 0px;
+  }
+}
